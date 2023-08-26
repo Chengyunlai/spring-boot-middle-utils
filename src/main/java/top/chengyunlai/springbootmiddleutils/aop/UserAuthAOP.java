@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author Chengyunlai
- * @description: TODO
+ * @description: 用户白名单
  * @date 2023/8/2
  */
 @Aspect

@@ -6,14 +6,13 @@ import java.io.Serializable;
 
 /**
  * @ClassName
- * @Description
+ * @Description 统一返回结果
  * @Author:chengyunlai
  * @Date
  * @Version 1.0
  **/
 @Data
 public class Result implements Serializable {
-    // TODO:使用枚举类来替换这个状态码
     private int code;
     private String msg;
     private Object data;

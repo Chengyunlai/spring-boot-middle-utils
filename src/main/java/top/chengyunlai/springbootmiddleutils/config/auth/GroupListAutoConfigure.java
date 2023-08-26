@@ -14,6 +14,13 @@ import top.chengyunlai.springbootmiddleutils.properties.GroupListProperties;
 @ConditionalOnProperty(prefix = "chengyunlai.accept", value = "enabled", matchIfMissing = false)
 public class GroupListAutoConfigure {
 
+    /**
+     * @description: 将配置文件类实例化为Bean
+     * @param: [properties]
+     * @return: java.lang.String
+     * @author Chengyunlai
+     * @date: 2023/8/26
+     */
     @Bean("groupList")
     @ConditionalOnMissingBean
     public String groupListConfig(GroupListProperties properties) {

@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author Chengyunlai
- * @description: TODO
+ * @description: 通用异常类 - 父类
  * @date 2023/8/2
  */
 public class BaseException extends Exception{
