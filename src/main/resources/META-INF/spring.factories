@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=top.chengyunlai.springbootmiddleutils.config.auth.GroupListAutoConfigure
